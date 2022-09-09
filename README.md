@@ -1,8 +1,7 @@
 # ArduinoServer
 
-## Подключение к MEGA2560
+## Подключение Ethernet Shield к MEGA2560
 
-### Ethernet Shield
 **5V->5V**
 
 **GND->GND**
@@ -17,7 +16,7 @@
 
 **SCLK->52(SPI SCLK Pin)**
 
-### TFT 1.8 Display
+### Подключение TFT 1.8 Display к MEGA2560
 **VCC->5V**
 
 **GND->GND**
