@@ -5,11 +5,6 @@
 
 class Display {
 public:
-    int8_t cs;
-    int8_t dc;
-    int8_t mosi;
-    int8_t sclk;
-    int8_t rst;
     Adafruit_ST7735* display;
     uint16_t bg_color = ST7735_BLACK;
     uint16_t fg_color = ST7735_WHITE;

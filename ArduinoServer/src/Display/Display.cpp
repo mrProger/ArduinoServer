@@ -1,13 +1,7 @@
 #include "Display.h"
 
 Display::Display(int8_t tft_cs, int8_t tft_dc, int8_t tft_mosi, int8_t tft_sclk, int8_t tft_rst) {
-    this->cs = tft_cs;
-    this->dc = tft_dc;
-    this->mosi = tft_mosi;
-    this->sclk = tft_sclk;
-    this->rst = tft_rst;
-
-    this->display = new Adafruit_ST7735(cs, dc, mosi, sclk, rst);
+    this->display = new Adafruit_ST7735(tft_cs, tft_dc, tft_mosi, tft_sclk, tft_rst);
 }
 
 void Display::Init() {
